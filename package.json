@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.5.0",
+    "@whiskeysockets/baileys": "^6.7.18",
     "express": "^5.1.0",
     "pino": "^8.0.0",
     "pm2": "^6.0.8",
     "qrcode-terminal": "^0.12.0",
-    "sharp": "^0.33.0"
+    "sharp": "0.32.6"
   }
 }
